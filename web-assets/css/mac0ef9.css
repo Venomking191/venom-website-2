@@ -1,0 +1,78 @@
+.header-top__link a {
+    line-height: 25px !important;
+}
+
+.tp-feature__link a {
+    line-height: 46px !important;
+}
+
+.scroll-top {
+    line-height: 55px !important;
+}
+
+.tp-btn {
+    line-height: 50px !important;
+}
+
+
+
+.tp-service__link a {
+    line-height: 46px !important;
+}
+
+.tp-btn-orange {
+    line-height: 41px !important;
+}
+
+.tp-test-arrow button {
+    line-height: 73px !important;
+}
+
+.tp-footer__input button {
+    line-height: 55px !important;
+}
+
+.tp-footer__social a {
+    line-height: 41px !important;
+}
+
+.tp-btn-white {
+    line-height: 50px !important;
+}
+
+.header-bottom__action a {
+    line-height: 33px !important;
+    height: 32px !important;
+}
+
+.ab-company-video a {
+    line-height: 75px !important;
+}
+
+.tp-btn-inner {
+    line-height: 55px !important;
+}
+
+.tp-team-social a {
+    line-height: 45px !important;
+}
+
+.signin-banner-login-browser a {
+    line-height: 55px !important;
+}
+
+.contact-form-social-item a {
+    line-height: 40px !important;
+}
+
+.career-details-social-box a {
+    line-height: 11px !important;
+}
+
+.career-details-location-box span svg {
+    transform: translateY(-1px) !important;
+}
+
+.signin-banner-form-remember .form-check label {
+    line-height: 28px !important;
+}

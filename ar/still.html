@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Centered Text</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      opacity: 0;
+      transform: scale(0.8);
+      animation: fadeInZoom 1.5s ease-out forwards;
+    }
+
+    .home-link {
+      margin-top: 20px;
+      font-size: 1.2em;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-out forwards;
+      animation-delay: 1.5s; /* Starts after the main text animation */
+    }
+
+    .home-link a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    .home-link a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeInZoom {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Still hasn't finished yet...</h1>
+  <div class="home-link">
+    <a href="./home.html">Go back to home</a>
+  </div>
+</body>
+</html>
